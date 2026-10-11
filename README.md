@@ -72,12 +72,7 @@ A separate FastAPI scaffold is included in the project archive, but the reviewed
 
 ### 1. Clone the repository
 
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
-```
-
-Alternatively, download the repository as a ZIP and extract it.
+ download the repository as a ZIP and extract it.
 
 ### 2. Install dependencies
 
@@ -91,10 +86,6 @@ npm install
 
 Create a `.env` file in the frontend project directory:
 
-```env
-VITE_SUPABASE_URL=your_supabase_project_url
-VITE_SUPABASE_ANON_KEY=your_supabase_public_anon_key
-```
 
 The frontend reads these variables through its shared Supabase client in `src/lib/supabase.js`.
 
